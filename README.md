@@ -1,5 +1,27 @@
 # 쿠버네티스 공식 문서 스터디
 
+# 👩🏻‍💻 스터디 멤버
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/dylee00.png" width="100"><br>
+      <a href="https://github.com/dylee00">이다연</a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/hiimminjeong.png" width="100"><br>
+      <a href="https://github.com/hiimminjeong">정민정</a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/esc-beep.png" width="100"><br>
+      <a href="https://github.com/esc-beep">최은소</a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/isuHan.png" width="100"><br>
+      <a href="https://github.com/isuHan">한지수</a>
+    </td>
+  </tr>
+</table>
+
 # 1️⃣ 주제
 
 > 쿠버네티스 공식 문서로 공부하고 새롭게 알게 된 내용이나 더 알고 싶은 내용을 공유하는 스터디입니다.
