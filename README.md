@@ -4,6 +4,10 @@
 <table>
   <tr>
     <td align="center">
+      <img src="https://github.com/Yeon-chae.png" width="100"><br>
+      <a href="https://github.com/Yeon-chae">박채연</a>
+    </td>
+    <td align="center">
       <img src="https://github.com/dylee00.png" width="100"><br>
       <a href="https://github.com/dylee00">이다연</a>
     </td>
