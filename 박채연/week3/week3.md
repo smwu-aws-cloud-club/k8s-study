@@ -215,7 +215,7 @@ kubectl rollout status deployment/nginx-deployment
 kubectl get rs
 ```
 
-![image.png](image%202.png)
+![image.png](assets/image 1.png)
 
 ```bash
 kubectl get pods --show-labels
