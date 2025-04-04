@@ -194,9 +194,7 @@ kubectl get deployments
 ```
 
 아직 생성 중일 경우, 다음과 같이 출력
-
-![UP-TO-DATE : 의도한 상태를 얻기 위해 업데이트된 replica 수
-AVAILABLE  :  사용가능한 replica 수](image.png)
+![image](https://github.com/user-attachments/assets/1077014a-e696-48a3-b895-49089b8aaae5)
 
 UP-TO-DATE : 의도한 상태를 얻기 위해 업데이트된 replica 수
 AVAILABLE  :  사용가능한 replica 수
@@ -207,7 +205,9 @@ kubectl rollout status deployment/nginx-deployment
 
 몇초 후 ..
 
-![3개의 replica 생성완료, 모든 replica 최신 상태, 사용 가능 상태](image%201.png)
+![image](https://github.com/user-attachments/assets/e6d8b819-a399-4994-9f74-b1ae392e1db3)
+
+
 
 3개의 replica 생성완료, 모든 replica 최신 상태, 사용 가능 상태
 
@@ -215,13 +215,15 @@ kubectl rollout status deployment/nginx-deployment
 kubectl get rs
 ```
 
-![image.png](assets/image 1.png)
+![image](https://github.com/user-attachments/assets/e5044a39-5fa0-4a7c-b253-9760e671abe2)
+
 
 ```bash
 kubectl get pods --show-labels
 ```
 
-![image.png](image%203.png)
+![image](https://github.com/user-attachments/assets/47e561e0-b93b-4c72-8297-211ed139a00c)
+
 
 ❗label과 selector는 다른 컨트롤러와 겹쳐서는 안된다!!. 쿠버네티스가 겹치는 걸 방지해주지 않기때문에 , 알아서 조심해라~
 
@@ -254,7 +256,8 @@ kubectl rollout status deployment/nginx-deployment
 kubectl get rs
 ```
 
-![위가 새로운 replicaset, 아래는 이전 replicaset이므로 0개로 scale down 되었음](image%204.png)
+![image](https://github.com/user-attachments/assets/b6ef8708-8bf2-4bf6-8177-056d06ceadbb)
+
 
 위가 새로운 replicaset, 아래는 이전 replicaset이므로 0개로 scale down 되었음
 
@@ -295,7 +298,8 @@ kubectl get rs
     
     ex)
     
-    ![image.png](image%205.png)
+![image](https://github.com/user-attachments/assets/7b4bf731-3fe7-4571-b60c-bd8845bc37f7)
+
     
     1. 각 수정 버전의 세부 정보 확인
     
@@ -303,21 +307,21 @@ kubectl get rs
     kubectl rollout history deployment/nginx-deployment --revision=2
     ```
     
-    ### 이전 수정 버전으로 롤백
+### 이전 수정 버전으로 롤백
     
-    이전 버전 2로 롤백해보자
+이전 버전 2로 롤백해보자
     
-    1. 현재 롤아웃 실행 취소 및 이전 수정 버전으로 롤백 
+1. 현재 롤아웃 실행 취소 및 이전 수정 버전으로 롤백 
     
-    ```bash
-    kubectl rollout undo deployment/nginx-deployment
-    ```
+```bash
+kubectl rollout undo deployment/nginx-deployment
+```
     
-    *특정 버전으로 롤백하고 싶다면
+*특정 버전으로 롤백하고 싶다면
     
-    ```bash
-    kubectl rollout undo deployment/nginx-deployment —to-revision=2
-    ```
+```bash
+kubectl rollout undo deployment/nginx-deployment —to-revision=2
+```
     
 
 ### 디플로이먼트 스케일링
@@ -506,7 +510,8 @@ kubectl delete deployment,services -l app=nginx
 
 이 경우 다음과 같이 적용됨
 
-![image.png](image%206.png)
+![image](https://github.com/user-attachments/assets/1cb63cc9-19ae-4eb7-a471-e9c4aa86f911)
+
 
 ```bash
 kubectl get pods -lapp=guestbook,role=slave
@@ -591,7 +596,8 @@ create→ scale → edit 하면 알아서 무준단으로 점차적 업데이트
 - 추가 정리
     - Controller 란? pod은 각자의 controller를 보통 가지고 있음
     
-    ![image.png](image%207.png)
+![image](https://github.com/user-attachments/assets/54feab82-7a69-409b-849a-3cb9f271a88a)
+
     
     - “롤아웃이 막혀있는 상태”
     
