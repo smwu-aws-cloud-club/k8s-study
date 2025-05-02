@@ -315,8 +315,6 @@ ports:
   - protocol: TCP
     port: 80
     targetPort: 9376
-  clusterIP: 10.0.171.239
-  type: LoadBalancer
 status:
   loadBalancer:
     ingress:
@@ -905,7 +903,6 @@ spec:
     secretName: testsecret-tls  # 위에서 만든 Secret 참조
   rules:
   - host: https-example.foo.com
-    .....
 ```
 
 ### 로드벨런싱
@@ -934,7 +931,6 @@ spec:
     textspec:
       rules:
       - host: foo.bar.com  # 기존 호스트
-        .....
       - host: bar.baz.com  # 새로운 호스트 생성
         http:
           paths:
