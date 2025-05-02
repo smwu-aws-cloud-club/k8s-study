@@ -1,6 +1,7 @@
 # 쿠버네티스 공식 문서 스터디
 
 # 👩🏻‍💻 스터디 멤버
+
 <table>
   <tr>
     <td align="center">
@@ -23,16 +24,18 @@
       <img src="https://github.com/isuHan.png" width="100"><br>
       <a href="https://github.com/isuHan">한지수</a>
     </td>
+    <td align="center">
+      <img src="https://github.com/fire-long.png" width="100"><br>
+      <a href="https://github.com/fire-long">박진영</a>
+    </td>
   </tr>
 </table>
 
 # 1️⃣ 주제
 
 > 쿠버네티스 공식 문서로 공부하고 새롭게 알게 된 내용이나 더 알고 싶은 내용을 공유하는 스터디입니다.
-> 
-> 
-> 가능하다면 종강 이후 간단하게 배포도 진행해 볼 예정입니다. 
-> 
+>
+> 가능하다면 종강 이후 간단하게 배포도 진행해 볼 예정입니다.
 
 # 2️⃣ 커리큘럼
 
@@ -106,8 +109,8 @@ https://kubernetes.io/ko/docs/concepts/cluster-administration/logging/
 
 https://kubernetes.io/ko/docs/tasks/debug/debug-cluster/resource-usage-monitoring/
 
-
 # 3️⃣ 방식
+
 - 스터디원 모두 정해진 분량의 공식 문서를 읽고 정리한 후 스터디 시간 이전까지 각자의 이름이 있는 디렉토리 안에 블로그 링크 또는 정리한 내용을 마크다운으로 올립니다.
 - 내용 공유 방식은 매주 금요일 오후 7시 30분에 비대면으로 진행 할 예정입니다.
 - 스터디 진행 중 문제 또는 질문사항이 생긴다면 Issue에 올려서 함께 해결합니다.
