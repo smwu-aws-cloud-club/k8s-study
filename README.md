@@ -3,6 +3,10 @@
 # 👩🏻‍💻 스터디 멤버
 <table>
   <tr>
+      <td align="center">
+        <img src="https://github.com/fire-long.png" width="100"><br>
+        <a href="https://github.com/fire-long">박진영</a>
+    </td>
     <td align="center">
       <img src="https://github.com/Yeon-chae.png" width="100"><br>
       <a href="https://github.com/Yeon-chae">박채연</a>
