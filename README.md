@@ -28,10 +28,6 @@
       <img src="https://github.com/isuHan.png" width="100"><br>
       <a href="https://github.com/isuHan">한지수</a>
     </td>
-    <td align="center">
-      <img src="https://github.com/fire-long.png" width="100"><br>
-      <a href="https://github.com/fire-long">박진영</a>
-    </td>
   </tr>
 </table>
 
